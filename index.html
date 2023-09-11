@@ -11,6 +11,10 @@
 
     <!-- Bootstrap + Dorang main styles -->
 	<link rel="stylesheet" href="assets/css/dorang.css">
+	
+	<!-- other css packages -->
+	<link rel="stylesheet" href="assets/css/read_more.css">
+	
 
 </head>
 <body data-spy="scroll" data-target=".navbar" data-offset="40" id="home" class="dark-theme">
@@ -90,7 +94,7 @@
         <div class="row mb-5">
             <div class="col-md-6">
                 <a href="javascript:void(0)" class="card">
-                    <img src="assets/imgs/alyssa.jpg" class="card-img" alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, weber Landing page">
+                    <img src="assets/imgs/alyssa.jpg" class="card-img" alt="photo of Alyssa">
                     <div class="card-body">
                         <h6 class="card-subtitle">Founder</h6>
                         <h3 class="card-title">Alyssa Yang</h3>
@@ -100,7 +104,7 @@
             </div>  
             <div class="col-md-6">
                 <a href="javascript:void(0)" class="card">
-                    <img src="assets/imgs/kelly.jpg" class="card-img" alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, weber Landing page">
+                    <img src="assets/imgs/kelly.jpg" class="card-img" alt="photo of Kelly">
                     <div class="card-body">
                         <h6 class="card-subtitle">Co-Founder</h6>
                         <h3 class="card-title">Kelly Shieh</h3>
@@ -122,7 +126,7 @@
                     <div class="des">
                         <h1 class="title">Yvonne Chou</h1>
                         <h6 class="subtitle">member</p>
-                        <p>"Taking care of kids always brings happiness."</p>
+                        <p>"Taking care of joy always brings happiness."</p>
                     </div>          
                 </a>
             </div>
@@ -167,7 +171,9 @@
 		<br></br>
 		<!-- Max's Story -->
 		<div class="col-md-10 col-lg-8 m-auto">
+		
             <h6 class="title mb-4">Max's Story: The Seed of Inspiration</h6>
+            
             <p class="mb-5">In the heart of a children's home in Beitou, there was a young 
             child who had experienced life's hardships from the very start. His mother was 
             sentenced to seven years in prison shortly after his birth, leaving him to navigate 
@@ -184,12 +190,13 @@
 			Although they offered occasional visits, their past experiences of living with 
 			their mother softened the blow of her absence. For Max, however, the yearning 
 			for a mother's love and understanding only grew stronger.</p>
+  			
 		</div>
 		
 		<!-- Problem Statement (need change visual effects) -->
 		<br></br>
 		<div class="col-md-10 col-lg-8 m-auto">
-			<h1>Problem Statement</h1>
+			<h1 class="title mb-4">Problem Statement</h1>
 			<br></br>
             <h6 class="title mb-4">Inadequate Care and Support for Children of Incarcerated Parents in Taiwan</h6>
             <p class="mb-5">In Taiwan, current legislation and practices for children of 
@@ -217,6 +224,7 @@
 			and children, hindering their ability to bond and offer each other the necessary 
 			support.</p>
 			
+			
 			<!-- ------ -->
 			<br></br>
             <h6 class="title mb-4">The Need for Change: Enhancing the Lives of Children of Incarcerated Mothers</h6>
@@ -226,7 +234,8 @@
             facilities and appropriate care arrangements for these young souls leads to 
             potential risks to their physical safety and emotional stability.</p>
             
-            <p class="mb-5">To create a brighter future for these children and empower 
+            <div>
+            <span id="text"><p class="mb-5">To create a brighter future for these children and empower 
             them to break the cycle of incarceration, it is imperative to address the 
             following key issues:</p>
 
@@ -251,6 +260,12 @@
 			more frequent and extended visitations between children and their incarcerated 
 			mothers is essential for maintaining strong family bonds and supporting the 
 			children's emotional development.</p>
+				
+				</span>
+			</div>
+			<div class="btn-container">
+				<button id="toggle">Read More</button>
+			</div>
 			
 		</div>
 		
@@ -295,6 +310,12 @@
             </div>  
         </div><!-- end of row -->
 		
+		<div class="col-md-10 col-lg-8 m-auto">
+			<h1>Events</h1>
+	        
+			<br></br>
+            <h6 class="title mb-4"><a href="timeline/index.html" target = "_blank"> - View timeline - </a></h6>
+		</div>
 		
 		<br></br>
 		<!-- join us -->
@@ -358,6 +379,11 @@
 
     <!-- Dorang js -->
     <script src="assets/js/dorang.js"></script>
+    
+    <!-- Read more js -->
+    <script src="assets/js/read_more.js"></script>
+    
+
 
 </body>
 </html>
