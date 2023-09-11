@@ -8977,6 +8977,7 @@ button.bg-dark:focus {
 .mb-5,
 .my-5 {
   margin-bottom: 3rem !important;
+  text-align: justify;
 }
 
 .ml-5,
@@ -10973,7 +10974,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 p {
-  font-size: calc(22px + (15 - 13) * ((100vw - 300px) / (1300 - 300)));
+  font-size: calc(20px + (15 - 13) * ((100vw - 300px) / (1300 - 300)));
   opacity: .9;
   font-weight: 400;
   letter-spacing: .6px;
